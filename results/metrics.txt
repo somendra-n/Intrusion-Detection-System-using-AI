@@ -1,0 +1,20 @@
+=== Intrusion Detection Results (XGBoost) ===
+
+Accuracy  : 98.99%
+Precision : 0.9955
+Recall    : 0.9887
+F1-Score  : 0.9921
+
+Confusion Matrix:
+[[18453   147]
+ [  373 32562]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.99     18600
+           1       1.00      0.99      0.99     32935
+
+    accuracy                           0.99     51535
+   macro avg       0.99      0.99      0.99     51535
+weighted avg       0.99      0.99      0.99     51535
